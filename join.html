@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Join Jazbaa</title>
+<link href="styles/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="content">
+  <div id="header">
+    <h1>JOIN US 
+    </h1>
+    <p>(non-govermental organisation)</p>
+  </div>
+  <ul id="nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="team.html">Our Team</a></li>
+    <li> <a href="achievments.html">Achievements</a></li>
+    <li><a href="join.html">Join Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+  <div id="frm">
+    <form action="" method="post" name="form1" class="rounded shadow">
+      <p>
+        <label for="firstname">Firstname:</label>
+        <input name="firstname" type="text" id="firstname" placeholder="eg:Neeraj" >
+        </p>
+      <p>
+        <label for="lastname">Lastname:</label>
+        <input type="text" name="lastname" id="lastname" placeholder="eg:Mishra">
+        </p>
+      <fieldset>
+        <legend>Please indicate your age:</legend>
+        <p>
+          <label>
+            <input type="radio" name="age" value="<18" id="age_0">
+            Under 18</label>
+          <br>
+          <label>
+            <input type="radio" name="age" value="18-40" id="age_1">
+            18-40</label>
+          <br>
+          <label>
+            <input type="radio" name="age" value="40-60" id="age_2">
+            40-60</label>
+          <br>
+          <label>
+            <input type="radio" name="age" value=">60" id="age_3">
+            Above 60</label>
+          </p>
+        
+        </fieldset>
+      <fieldset><legend>Gender:</legend><p>
+        <label>
+          <input type="radio" name="gender" value="male" id="gender_0">
+          Male</label>
+        <br>
+        <label>
+          <input type="radio" name="gender" value="female" id="gender_1">
+          Female</label>
+        <br>
+        <label>
+          <input type="radio" name="gender" value="other" id="gender_2">
+          Other</label>
+        <br>
+        </p>
+        </fieldset>
+      <fieldset><legend>Join As:</legend><p>
+        <label>
+          <input type="checkbox" name="joinas" value="intern" id="joinas_0">
+          Intern</label>
+        <br>
+        <label>
+          <input type="checkbox" name="joinas" value="volunteer" id="joinas_1">
+          Volunteer</label>
+        <br>
+        </p>
+        </fieldset>
+      <p>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="xyz@gmail.com">
+        </p>
+      <p>
+        <label for="password">Password:</label>
+        <input name="password" type="password" id="password"placeholder="Min. 8 characters" min="8">
+        </p>
+      <p>
+        <label for="department">Which department you want to join:</label>
+        <select name="department" id="department">
+          <option value="cl">Cultural</option>
+          <option value="ed">Education</option>
+          <option value="it">IT</option>
+          <option value="sw">Social Work</option>
+          </select>
+        </p>
+      <p>
+        <label for="comments">Any Comments?</label>
+        <textarea name="comments" id="comments"></textarea>
+        </p>
+      <p>
+        <input type="checkbox" name="agree" id="agree">
+        <label for="agree">I am sure with the data given.</label>
+        </p>
+      <p>
+        <input type="submit" name="sumbit " id="sumbit " value="Submit">
+        </p>
+    </form>
+  </div>
+</div>
+</body>
+</html>
